@@ -9,7 +9,6 @@ return {
   {
     "YKamataki/skkeleton-azik",
     dependencies = { "vim-skk/skkeleton" },
-    config = true,
   },
   -- cmp
   {
