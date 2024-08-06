@@ -14,7 +14,6 @@ return {
   {
     "rinx/cmp-skkeleton",
     dependencies = { "vim-skk/skkeleton", "hrsh7th/nvim-cmp" },
-    config = true,
   },
   -- indicator
   {
