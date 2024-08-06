@@ -36,4 +36,5 @@ vim.wo.signcolumn = "yes"
 -- Neovide Settings
 if vim.g.neovide then
   vim.o.guifont = "UDEV Gothic NF"
+  vim.opt.clipboard = "unnamed" -- Enable clipboard
 end
