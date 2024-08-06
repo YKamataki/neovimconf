@@ -11,3 +11,7 @@ vim.keymap.set("n", "<leader>to", ":tabnew<CR>")
 vim.keymap.set("n", "<leader>tx", ":tabclose<CR>")
 vim.keymap.set("n", "<leader>tn", ":tabn<CR>") -- Go to next tab
 vim.keymap.set("n", "<leader>tp", ":tabp<CR>") -- prev
+
+-- Disable some keymaps made by LazyVim
+vim.keymap.del("n", "j")
+vim.keymap.del("n", "k")
