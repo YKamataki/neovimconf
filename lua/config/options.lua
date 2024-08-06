@@ -32,3 +32,8 @@ vim.opt.inccommand = "split"
 vim.g.mapleader = " "
 -- vim.opt.relativenumber = true
 vim.wo.signcolumn = "yes"
+
+-- Neovide Settings
+if vim.g.neovide then
+  vim.o.guifont = "UDEV Gothic NF"
+end
