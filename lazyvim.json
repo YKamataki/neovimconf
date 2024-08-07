@@ -2,6 +2,7 @@
   "extras": [
     "lazyvim.plugins.extras.coding.copilot",
     "lazyvim.plugins.extras.coding.luasnip",
+    "lazyvim.plugins.extras.dap.core",
     "lazyvim.plugins.extras.editor.dial",
     "lazyvim.plugins.extras.editor.outline",
     "lazyvim.plugins.extras.editor.refactoring",
@@ -15,6 +16,7 @@
     "lazyvim.plugins.extras.lang.go",
     "lazyvim.plugins.extras.lang.java",
     "lazyvim.plugins.extras.lang.json",
+    "lazyvim.plugins.extras.lang.markdown",
     "lazyvim.plugins.extras.lang.php",
     "lazyvim.plugins.extras.lang.python",
     "lazyvim.plugins.extras.lang.ruby",
@@ -24,7 +26,9 @@
     "lazyvim.plugins.extras.lang.typescript",
     "lazyvim.plugins.extras.lang.yaml",
     "lazyvim.plugins.extras.lsp.none-ls",
-    "lazyvim.plugins.extras.test.core"
+    "lazyvim.plugins.extras.test.core",
+    "lazyvim.plugins.extras.util.gitui",
+    "lazyvim.plugins.extras.util.project"
   ],
   "news": {
     "NEWS.md": "6520"
