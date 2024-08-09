@@ -33,6 +33,7 @@ vim.opt.inccommand = "split"
 vim.g.mapleader = " "
 -- vim.opt.relativenumber = true
 vim.wo.signcolumn = "yes"
+vim.opt.spelllang = { "en", "cjk" }
 
 -- Neovide Settings
 if vim.g.neovide then
