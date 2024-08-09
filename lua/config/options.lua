@@ -5,6 +5,7 @@ vim.opt.scrolloff = 9999
 vim.opt.fileencoding = "utf-8"
 vim.opt.fileencodings = "utf-8,iso-2022-jp,sjis,euc-jp,cp932,utf-16"
 -- vim.opt.clipboard = 'unnamed'
+vim.opt.clipboard = "" -- WSL環境で重くなるので無効化
 vim.opt.mouse = "" -- Disable mouse functions
 --vim.opt.ambiwidth = "double"
 vim.opt.ignorecase = true
