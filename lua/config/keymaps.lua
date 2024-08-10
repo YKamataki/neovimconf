@@ -13,7 +13,7 @@ vim.keymap.set("n", "<leader>tn", ":tabn<CR>") -- Go to next tab
 vim.keymap.set("n", "<leader>tp", ":tabp<CR>") -- prev
 
 -- Reset hilight with <C-l>
-vim.keymap.set("n", "<C-l>", ":nohlsearch<CR>:hlsearch<CR>")
+vim.keymap.set("n", "<C-l>", ":nohlsearch<CR>")
 
 -- Disable some keymaps made by LazyVim
 vim.keymap.del("n", "j")
