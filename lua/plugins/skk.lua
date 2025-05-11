@@ -11,10 +11,10 @@ return {
     dependencies = { "vim-skk/skkeleton" },
   },
   -- cmp
-  {
-    "rinx/cmp-skkeleton",
-    dependencies = { "vim-skk/skkeleton", "hrsh7th/nvim-cmp" },
-  },
+  --  {
+  --    "rinx/cmp-skkeleton",
+  --    dependencies = { "vim-skk/skkeleton", "hrsh7th/nvim-cmp" },
+  --  },
   -- indicator
   {
     "delphinus/skkeleton_indicator.nvim",
