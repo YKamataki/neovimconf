@@ -13,7 +13,14 @@ return {
     config = function()
       vim.fn["skkeleton#config"]({
         globalDictionaries = {
-          "C:/Users/kamataki.yuya/skk/SKK-JISYO.L",
+          "/usr/share/skk/SKK-JISYO.L",
+          "/usr/share/skk/SKK-JISYO.assoc",
+          "/usr/share/skk/SKK-JISYO.fullname",
+          "/usr/share/skk/SKK-JISYO.geo",
+          "/usr/share/skk/SKK-JISYO.jinmei",
+          "/usr/share/skk/SKK-JISYO.lisp",
+          "/usr/share/skk/SKK-JISYO.station",
+          "/usr/share/skk/SKK-JISYO.pubdic+",
         },
         eggLikeNewline = true,
         registerConvertResult = true,
