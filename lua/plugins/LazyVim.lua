@@ -1,7 +1,7 @@
 -- LazyVim Settings
 return {
   { "LazyVim/LazyVim", opts = {
-    colorscheme = "tokyonight-night",
+    colorscheme = "default",
   } },
   {
     "hrsh7th/nvim-cmp",
