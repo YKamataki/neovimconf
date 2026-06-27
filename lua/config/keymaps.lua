@@ -18,3 +18,6 @@ vim.keymap.set("n", "<C-l>", ":nohlsearch<CR>")
 -- Disable some keymaps made by LazyVim
 vim.keymap.del("n", "j")
 vim.keymap.del("n", "k")
+
+-- カーソル下の文字コードを取得
+vim.keymap.set("n", "ga", ":echo printf('U+%04X', char2nr(getline('.')[col('.')-1]))<CR>") -- Echo Unicode

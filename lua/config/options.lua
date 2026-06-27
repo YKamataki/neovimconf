@@ -38,6 +38,12 @@ vim.opt.spelllang = { "en", "cjk" }
 
 -- Neovide Settings
 if vim.g.neovide then
-  vim.o.guifont = "UDEV Gothic NF"
+  vim.o.guifont = "UDEV Gothic 35NF"
   vim.opt.clipboard = "unnamed" -- Enable clipboard
+  -- 不要な機能を無効化
+  vim.g.neovide.scroll_animation_length = 0
+  vim.g.neovide.position_animation_length = 0
 end
+
+-- 不要な機能を無効化
+vim.g.snacks_animate = false

@@ -1,3 +1,5 @@
+local is_windows = vim.fn.has("win32") == 1 or vim.fn.has("win64") == 1
+
 return {
   "epwalsh/obsidian.nvim",
   version = "*", -- recommended, use latest release instead of latest commit
@@ -15,20 +17,25 @@ return {
     -- Required.
     "nvim-lua/plenary.nvim",
 
-    -- see below for full list of optional dependencies 👇
+    -- see below for full list of optional dependencies
   },
   opts = {
-    workspaces = {
-      {
-        name = "personal",
-        path = "~/obsidian",
+    workspaces = is_windows
+        and {
+          {
+            name = "personal",
+            path = "~//OneDrive - デジタル・インフォメーション・テクノロジー株式会社/ドキュメント/note/",
+          },
+        }
+      or {
+        {
+          name = "personal",
+          path = "~/obsidian",
+        },
+        {
+          name = "work",
+          path = "~/git/sotsuken",
+        },
       },
-      {
-        name = "work",
-        path = "~/git/sotsuken",
-      },
-    },
-
-    -- see below for full list of options 👇
   },
 }

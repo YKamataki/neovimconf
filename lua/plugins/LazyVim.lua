@@ -9,4 +9,17 @@ return {
       table.insert(opts.sources, { name = "skkeleton" })
     end,
   },
+  {
+    "nvim-treesitter/nvim-treesitter",
+    dependencies = {
+      "nvim-treesitter/nvim-treesitter-textobjects",
+    },
+    build = ":TSUpdate",
+    install = function()
+      require("nvim-treesitter.install").setup({
+        prefer_git = false,
+        compilers = { "gcc" },
+      })
+    end,
+  },
 }
