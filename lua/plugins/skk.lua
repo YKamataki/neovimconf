@@ -28,6 +28,7 @@ return {
       })
       vim.keymap.set({ "i", "c" }, "<C-j>", "<Plug>(skkeleton-enable)", { noremap = false })
       vim.keymap.set({ "i", "c" }, "<C-l>", "<Plug>(skkeleton-disable)", { noremap = false })
+      vim.fn["skkeleton#initialize"]()
     end,
   },
   -- cmp
